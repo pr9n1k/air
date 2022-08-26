@@ -1,4 +1,5 @@
 {
+  "homepage": "http://pr9n1k.github.io/air",
   "name": "air",
   "version": "0.1.0",
   "private": true,
@@ -11,13 +12,11 @@
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
     "axios": "^0.27.2",
-    "gh-pages": "^4.0.0",
     "node-sass": "^7.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.0.2",
     "react-scripts": "5.0.1",
-    "react-scroll-up-button": "^1.6.4",
     "redux": "^4.2.0",
     "redux-thunk": "^2.4.1",
     "typescript": "^4.7.4",
@@ -48,5 +47,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
