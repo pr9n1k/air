@@ -62,7 +62,7 @@ const Air = () => {
         <Filter filter={filter} setFilter={setFilter} />
         <div className="air__content">
           {!flights.length ? (
-            <h2>Список не найден</h2>
+            <h2>Загрузка...</h2>
           ) : !filterFlights.length ? (
             <>
               <h2 className="title">Ничего не найдено</h2>
