@@ -54,7 +54,7 @@ export const formatDifferenceDate = (first: Date, second: Date) => {
   const { day, hours, minutes } = differenceDate(first, second);
   if (day) {
     return `${day}д ${hours}ч ${formatMinutes(minutes)}м`;
-  } else if (minutes) {
+  } else if (hours) {
     return `${hours}ч ${formatMinutes(minutes)}м`;
   } else {
     return `${formatMinutes(minutes)}м`;

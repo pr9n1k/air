@@ -66,6 +66,7 @@ const Air = () => {
           ) : !filterFlights.length ? (
             <>
               <h2 className="title">Ничего не найдено</h2>
+              <p>Измените данные фильтров</p>
               <h3 className="show-more" onClick={showMore}>
                 Показать еще
               </h3>
